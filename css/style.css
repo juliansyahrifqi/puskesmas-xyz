@@ -1,0 +1,49 @@
+.navbar-brand img {
+    width: 51px;
+    height: 53px;
+}
+.nav-divider {
+    background: white;
+    width: 97%;
+    margin-top: 0;
+}
+.hero {
+    background:linear-gradient(0deg, rgba(30, 174, 152, 0.7), rgba(30, 174, 152, 0.7)), url("../images/hero-background.jpg") no-repeat center;
+    background-size: cover;
+}
+.hero-icon img {
+    width: 70px;
+    height: 70px;
+}
+.hero-image img {
+    width: 400px;
+}
+.btn-read {
+    border: 1px solid white;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+}
+.btn-read:hover {
+    text-decoration: none;
+    color: white;
+}
+.list-divider {
+    background: black;
+    width: 50%;
+}
+.category-icon img {
+    width: 120px;
+}
+.btn-register {
+    border: none;
+    background: #1EC6B7;
+    padding: 3px 48px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: white;
+}
+.btn-register:hover {
+    text-decoration: none;
+    color: white;
+}
