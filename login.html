@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puskesmas XYZ - Login</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light px-5">
+        <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mr-4">
+                    <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link text-white" href="daftar-pelayanan.html">Daftar</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link text-white" href="#">Kontak</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Of Navbar -->
+
+        <div class="login py-5">
+            <div class="container py-5">
+                <div class="login-content bg-white">
+                    <div class="row align-items-center">
+                        <div class="col-sm">
+                            <div class="login-information text-center p-5">
+                                <img src="./images/logo.png" alt="Logo" class="img-fluid">
+                                <h1 class="mt-4 text-white">PUSKESMAS XYZ</h1>
+                                <p class="mb-0 mt-4 text-white">In publishing and graphic design, Lorem ipsum is a placeholder 
+                                    text commonly used to demonstrate the visual form of a 
+                                    document or a typeface without relying on meaningful content
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm">
+                            <div class="login-form p-5 text-center">
+                                <h1 class="login-title">WELCOME</h1>
+                                <form class="mt-4">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                              <div class="input-group-text">
+                                                  <img src="./images/user.svg" alt="">
+                                              </div>
+                                            </div>
+                                            <input type="text" class="form-control" id="username" placeholder="Username">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                              <div class="input-group-text">
+                                                  <img src="./images/password.svg" alt="">
+                                              </div>
+                                            </div>
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn-login bg-green text-white font-weight-bold w-100 py-2 mt-3">LOGIN</button>
+                                  </form>
+                                  <p class="mt-2">Belum Punya Akun?
+                                      <span class="highlight">
+                                          <a href="register.html"> Daftar Disini</a>
+                                        </span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="login-information">
+                        <img src="./images/logo.png" alt="">
+                        <h1>PUSKESMAS XYZ</h1>
+                        <p>In publishing and graphic design, Lorem ipsum is a placeholder 
+                            text commonly used to demonstrate the visual form of a 
+                            document or a typeface without relying on meaningful content
+                        </p>
+                    </div> -->
+
+                    <!-- <div class="login-form">
+                        <h1>WELCOME</h1>
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
