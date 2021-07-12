@@ -1,3 +1,6 @@
+.navbar {
+    background: #1EAE98;
+}
 .navbar-brand img {
     width: 51px;
     height: 53px;
@@ -46,4 +49,52 @@
 .btn-register:hover {
     text-decoration: none;
     color: white;
+}
+.pelayanan, .jenis-pendaftaran {
+    background: #D7F1F0;
+}
+.list-pelayanan, .list-jenis-pendaftaran {
+    border-radius: 10px;
+}
+.bg-blue {
+    background: #2992C2;
+}
+.bg-green {
+    background: #1EC6B7;
+}
+.bg-grey {
+    background: #E5E5E5;
+}
+.text-grey-dark {
+    color: #58595C;
+}
+.card-poli-icon {
+    width: 50px;
+    height: 50px;
+}
+.card-poli {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-out; 
+}
+.card-poli:hover {
+    transform: scale(1.08);
+}
+.bg-poli-dalam {
+    background-image: url("../images/heart-bg.svg");
+}
+.bg-poli-umum {
+    background-image: url("../images/eyes-bg.svg");
+}
+.bg-poli-anak {
+    background-image: url("../images/child-bg.svg");
+}
+.bg-poli-kandungan {
+    background-image: url("../images/pregnant-bg.svg");
+}
+.bg-poli-gigi {
+    background-image: url("../images/tooth-bg.svg");
+}
+.bg-poli-tht {
+    background-image: url("../images/ear-bg.svg");
 }
